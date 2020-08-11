@@ -1,0 +1,9 @@
+{"message":"Unauthorized request to path: /card/","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Card with id 1 deleted.","level":"info"}
+{"message":"Card with id 94ce36df-b3d7-4e2d-b7af-0f24f78f48d1 deleted.","level":"info"}
+{"message":"Bookmark with id 9f26c070-53cb-4b00-b16f-ea1c8a0a866d created","level":"info"}
+{"message":"Bookmark with id 47088f86-d68b-40eb-b3d0-992aef9cfb7a created","level":"info"}
