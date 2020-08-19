@@ -1,11 +1,13 @@
 {
-  "name": "express-boilerplate",
+  "name": "bookmarks-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "test": "mocha --require test/setup.js",
+    "migrate": "postgrator --config postgrator-config.js",
+    "migrate:test": "env NODE_ENV=test npm run migrate",
     "dev": "nodemon server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
@@ -18,14 +20,18 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.0.0",
+    "knex": "^0.21.4",
     "morgan": "^1.10.0",
+    "pg": "^8.3.0",
     "uuid": "^8.3.0",
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "xss": "^1.0.8"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.1.1",
     "nodemon": "^2.0.4",
+    "postgrator-cli": "^3.2.0",
     "supertest": "^4.0.2"
   }
 }

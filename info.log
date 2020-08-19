@@ -7,3 +7,10 @@
 {"message":"Card with id 94ce36df-b3d7-4e2d-b7af-0f24f78f48d1 deleted.","level":"info"}
 {"message":"Bookmark with id 9f26c070-53cb-4b00-b16f-ea1c8a0a866d created","level":"info"}
 {"message":"Bookmark with id 47088f86-d68b-40eb-b3d0-992aef9cfb7a created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Bookmark with id 884846c3-b599-4d12-90a6-107b4bc5cd33 created","level":"info"}
+{"message":"Bookmark with id a74f2209-e7b5-4f12-bcdf-c83cbcd6f7c9 created","level":"info"}
+{"message":"Bookmark with id e36fe3c3-9992-46df-8255-4e90579967a3 created","level":"info"}
+{"message":"Bookmark with id fa553d3d-2fb7-42b8-b396-3c7a7c0c3a86 created","level":"info"}
+{"message":"Bookmark with id 5e0d073f-4020-4116-a3b3-b5fa3accb513 created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
