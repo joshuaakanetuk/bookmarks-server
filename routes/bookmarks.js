@@ -6,7 +6,6 @@ const path = require("path");
 
 const bookmarksRouter = express.Router();
 const jsonParser = express.json();
-// let bookmarks = require('../store.js')
 const BookmarksService = require("../bookmarksservice");
 
 const serializeBookmark = bookmark => ({
@@ -47,7 +46,6 @@ bookmarksRouter
       .then(bookmark => {
         res
           .status(201)
-          // .location(`/bookmarks/${bookmark.id}`)
           .location(path.posix.join(req.originalUrl, `/${bookmark.id}`))
           .json(serializeBookmark(bookmark));
       })
